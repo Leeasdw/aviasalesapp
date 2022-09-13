@@ -1,0 +1,39 @@
+
+  $ltblue: #2196f3;
+  $ltgreywhite: #f1fcff;
+  .filter__element {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .filter__element:hover {
+    background-color: $ltgreywhite;
+  }
+  
+  .check__input {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+  }
+  
+  .check__box {
+    margin-top: 2px;
+    margin-left: -30px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 1px solid $ltblue;
+    border-radius:2px;
+    background: none;
+  }
+
+  .check__input:checked + .check__box {
+    background: center no-repeat url('../../img/check.svg');
+  }
+  
+  
