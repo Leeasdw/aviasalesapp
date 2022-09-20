@@ -12,7 +12,7 @@ function AviaSalesApp() {
   const id = useSelector((state) => state.searchId.id);
   useEffect(() => {
     dispatch(fetchId());
-  }, []);
+  }, [dispatch]);
   useEffect(() => {
     dispatch(fetchTickets(id));
   }, [id]);
