@@ -21,6 +21,7 @@ function AviaSalesApp() {
     <div className="aviasales__app">
       <div className="wrapper">
         <div>HELLO ALL</div>
+        <div>BYE</div>
         <Header />
         <main className="main">
           <Filter />
