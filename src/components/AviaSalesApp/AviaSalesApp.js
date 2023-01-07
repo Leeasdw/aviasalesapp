@@ -22,7 +22,7 @@ function AviaSalesApp() {
       <div className="wrapper">
         <div>HELLO ALL</div>
         <div>BYE</div>
-     <div>new stuff</div>
+     <div>14:43</div>
         <Header />
         <main className="main">
           <Filter />
